@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!-- A tag <!DOCTYPE html> é uma declaração que informa ao navegador que o documento é um arquivo HTML5. Ela deve ser a primeira linha de um documento HTML e é importante para garantir que o navegador renderize a página corretamente. Sem essa declaração, o navegador pode entrar em um modo de compatibilidade, o que pode resultar em problemas de exibição e funcionalidade. Para economizar tempo basta clicar em shift + ! no vscode e a declaração será inserida automaticamente.-->
+
+
+<html lang="pt-br">
+    <!-- O atributo lang="pt-br" especifica que o i dioma principal do conteúdo é o português do Brasil, o que pode ajudar os mecanismos de busca e os leitores de tela a entender melhor o conteúdo da página. Por padrão ela vem em inglês, mas pode ser alterada facilmente -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>✨Siteee✨</title>
+    <!-- A tag <title> define o título do documento HTML, que é exibido na barra de título do navegador ou na guia da página. -->
+
+    <!-- Ignora o bloco style, eu tava testando uma coisa, não aprendemos sobre ele!! -->
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        hr {
+            margin-top: 20px;
+            border: 0;
+            height: 1px;
+            background-color: #ccc;
+        }
+    </style>
+    <!-- Nós ainda não aprendemos esse bloco do style!! Eu coloquei pq sou ansiosa kakk -->
+    <!-- Se quiser pode excluir esse bloco de style, ele serve só para deixar bonitinho a pagina -->
+
+
+    <link rel="icon" type="image/x-icon" href="eevee.ico">
+    <!-- A tag <link> é usada para vincular um recurso externo ao documento HTML. No exemplo, ela está sendo usada para definir o ícone da página (favicon) que aparece na guia do navegador. O atributo rel="icon" indica que o recurso é um ícone, type="image/x-icon" especifica o tipo de arquivo do ícone, e href="eevee.ico" fornece o caminho para o arquivo do ícone. -->
+
+</head>
+
+<!-- NADA do que esta dentro da tag <head> é exibido na página, ele é apenas para configurar o documento, como o título, o ícone, as fontes, as cores, etc. O conteúdo que queremos exibir na página deve ser colocado dentro da tag <body> que significa literalmente "corpo" da página. -->
+
+<body>
+    <h1>Olá, mundo!</h1>
+
+    <!-- O H1 siginifica que é o título principal da página -->
+
+    <hr>
+
+    <!-- A tag <hr> é usada para inserir uma linha horizontal na página, que pode ser usada para separar seções de conteúdo. -->
+
+    <p>este é o primeiro documento html <br><br> </p>
+
+    <!-- O parágrafo <p> é usado para criar um parágrafo de texto na página e o <br> é usado para criar uma quebra de linha -->
+    
+    <p>o objetivo é aprender mais sobre a linguagem de marcação</p><br>
+    <h1>Inserindo imagem local</h1>
+    <img src="google.png" alt="uma imagem do google">
+
+    <!-- A tag <img> é usada para inserir uma imagem na página. O atributo src especifica o caminho para o arquivo da imagem, e o atributo alt fornece um texto alternativo que é exibido caso a imagem não possa ser carregada. -->
+
+    <p><br>Quando inserimos uma imagem local, ela precisa estar na mesma pasta do documento html<br>Imagens locais evitam que elas caiam por falta de conexão com a internet<br> Caso não apareça a imagem veja se na pasta do arquivo tem uma imagem com o nome correspondente, caso não tenha apenas adicone ou mude o nome para um documento existente na sua pasta</p>
+    <br>
+
+    <h2>inserindo uma nova imagem, dessa vez externa</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Internet_et_ses_applications.png/960px-Internet_et_ses_applications.png?_=20161028045159" alt="uma imagem da internet" width="400px">
+
+    <!-- Aqui o caminho é uma URL que aponta para a imagem na internet -->
+
+    <p><br>inserimos uma imagem externa, ela precisa de uma url para ser acessada<br>Imagens externas podem cair por falta de conexão com a internet</p> 
+    <p>porém deixam o site mais leve caso sejam necessarias muitas imagens em um mesmo site</p>
+
+    <!-- Para colocar comentarios pressione ctrl + ; ou ctrl + / -->
+    
+</body>
+</html>
