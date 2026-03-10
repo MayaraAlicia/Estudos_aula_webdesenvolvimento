@@ -34,10 +34,25 @@
         </ol>
     </ul>
 
+    <hr>
+
+    <h1>Link baixavel</h1>
+
+    <a href="Mayara Alicia.pdf" download="Mayara Alicia.pdf" type="application/pdf">Baixar currículo</a>
+
+    <!-- Aqui o <a> é um botão que encaminha para o arquivo "Mayara Alicia.pdf", mas invés de abrir ele executa o comando de "download" que acresecentamos e baixa o arquivo
+        o type="application/pdf" serve para especificar o tipo de arquivo que está sendo baixado, e a frase entre chaves é o texto que aparece no botão -->
+
+    <hr>
     <h1>Visite também: </h1>
     <p>Outra pagina:</p>
-    <a href="pag2.html">  <img src="seta.png" alt="seta para esquerda" width="30px">  </a>
-    
-</body>
+    <a href="pag2.html">  <img src="seta.png" alt="seta para esquerda" width="30px"> </a>
 
+    <!-- Para criar uma segunda pagina é facil, crie outro arquivo com o final .html na mesma pasta que o arquivo principal (o arquivo principal normalmente se chama index), então para linkar os 2 basta colocar "<a href="{nome}.html">Pagina 2</a>", o "<a>" cria um botão, o "href" especifica um endereço, então quando vc clica no botão ele te manda para esse endereço, basicamente é isso -->
+
+    <!-- No caso do link a cima, ele tem uma tag de img dentro da tag "<a>", serve para que o botão seja uma imagem, quando clica na imagem ele manda para o endereço  -->
+    <!-- O alt é oq aparece quando não carrega a imagem, e o "width" é só uma frescura para a imagem ocupar só 30px e não ocupar tanto espaço-->
+    <p>Outra pagina <a href="pag3.html">Clique aqui</a></p>
+
+</body>
 </html>
